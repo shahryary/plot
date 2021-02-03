@@ -16,7 +16,7 @@ a  =  x + r cos(teta)
 
 b  =  y + r sin(teta)
 
-where r is the radius of the circle, and x,kyare the coordinates of the center.
+where r is the radius of the circle, and x,y are the coordinates of the center.
 more info: https://www.mathopenref.com/coordparamcircle.html
 
 
@@ -66,14 +66,14 @@ Parameters:
 examples: 
 =============
 
-Will plot a circle with 150 radian, with thickness 3, center of circle in 50.50 and figure size 400 in 400 
+Will plot a circle with 50 radian, with thickness 3, center of circle in 50.50 and figure size 400 in 400 
 
 ``` bash
-$ python3 -c "import draw; draw.run(150, 3, 50, 50, 400, 400)"
+$ python3 -c "import draw; draw.run((50, 3, 50, 50, 400, 400))"
 ```
 ![shahryary/plot](images/circle1.png)
 
-Will plot a circle with 200 radian, with thickness 5, center of circle in 50.50 and figure size 400 in 400 
+Will plot a circle with 100 radian, with thickness 5, center of circle in -40.-40 and figure size 400 in 400 
 
 ``` bash
 $ python3 -c "import draw; draw.run(100, 5, -40, -40, 400, 400)"
