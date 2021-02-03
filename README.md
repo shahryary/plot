@@ -42,7 +42,7 @@ Install libraries
 $ pip3 install pillow
 ```
 
-Download the "dist/circle-0.1.1.tar.gz" file. 
+Download the "circle-0.1.1.tar.gz" file from dist folder. [Download link](https://github.com/shahryary/plot/blob/main/dist/circle-0.1.1.tar.gz) 
  
  ``` bash
 $ pip3 install circle-0.1.1.tar.gz
